@@ -108,7 +108,7 @@ p {
     line-height: 1;
   }
 }
-/* MORE global css */
+/* MORE global css  */ 
 .btn {
   text-transform: uppercase;
   background: var(--clr-primary);
@@ -345,7 +345,10 @@ Header
 
 .banner h2 {
   font-family: var(--ff-secondary);
-  color: var(--clr-primary);
+  color: var(--clr-white);
+  background: linear-gradient(45deg, red, orange, yellow, 
+  green, blue, indigo, violet, red);
+  border-radius: var(--radius);
   /* animation */
   animation: slideFromRight 3s ease-in-out 1;
 }
