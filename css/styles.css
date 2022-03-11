@@ -268,7 +268,7 @@ Navbar
 .navbar-header {
   text-align: right;
   padding-right: 1rem;
-  margin-bottom: 7.5rem;
+  /* margin-bottom: 0.5rem; */
 }
 .nav-close {
   font-size: 2.5rem;
