@@ -346,9 +346,16 @@ Header
 .banner h2 {
   font-family: var(--ff-secondary);
   color: var(--clr-white);
-  background: linear-gradient(45deg, red, orange, yellow, 
+  /* background: linear-gradient(45deg, red, orange, yellow, 
   green, blue, indigo, violet, red);
-  border-radius: var(--radius);
+    border-radius: var(--radius); */
+
+    background: -webkit-linear-gradient(45deg, red, orange, yellow, 
+    green, blue, indigo, violet, red, red, orange, yellow, 
+    green, blue, indigo, violet, red,red, orange, yellow, 
+    green, blue, indigo, violet, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   /* animation */
   animation: slideFromRight 3s ease-in-out 1;
 }
